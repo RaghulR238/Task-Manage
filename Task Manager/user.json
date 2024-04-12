@@ -1,0 +1,12 @@
+{
+    "user":[{
+        "name":"rathis",
+        "age":"-10",
+        "password":"rathis@"
+    },{
+        "name":"prathis",
+        "age":"90",
+        "password":"prathis@"
+    }]
+}
+

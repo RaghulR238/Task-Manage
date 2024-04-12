@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time tracker</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="body">
+
+    <div class="heading" >
+        <div style="text-align: center;flex: 1;">
+        <h2 >Time Tracker</h2>
+    </div>
+    <div>
+    <div id="u"></div>
+    </div>
+    </div>
+    
+    <hr>
+
+    
+    <div class="content">
+        <div style="flex: 2">
+            <div class="search">
+                <input placeholder="filter" id="filter"></input>
+                <button id="start_filter">Filter</button>
+            </div>
+    <div  class="task" >
+        <div  class="table">CATEGORY</div>
+        <div class="table">SUB CATEGORY</div>
+        <div  class="table">DURATION</div>
+        <div  class="table">TASK</div>
+        <div  class="table">STATUS  </div>
+        <div  class="table">Update  </div>
+    </div>
+
+    <div id=task class="task" >
+        <div id="category" class="table"></div>
+        <div id="sub" class="table"></div>
+        <div id="duration" class="table"></div>
+        <div id="work" class="table"></div>
+        <div id="checkbox"  class="table"></div>
+        <div class="table" id="update"></div>
+    </div>
+</div>
+
+<div class="add">
+    <div class="task">
+<button class="table" >Add a Task</button>
+<button class="table" id="schedule_task">Schedule Task</button>
+
+    </div>
+    <h1 style="text-align: center" id="start_new">Start a new task</h1>
+
+   
+
+    <select id="drop" class="drop">
+        <option id="drop_work" value="work">Work</option>
+        <option id="drop_personal" value="Personal work">Personal Work</option>
+    </select>
+
+
+    <input class="table2" id="input_sub"   placeholder="Sub-Category"></input>
+
+    <div style="display: flex;">
+    <input class="table2" id="input_hr" placeholder="Hr"></input>
+    <input class="table2" id="input_min" placeholder="Min"></input>
+    <input class="table2" id="input_sec" placeholder="Sec"></input>
+</div>
+
+    <input class="table2" id="input_work" placeholder="Enter Work"></input>
+
+    <div class="task">
+        <button id="add_new" class="table">Start</button>
+        <button class="table">Reset</button>
+    </div>
+
+
+</div>
+
+</div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

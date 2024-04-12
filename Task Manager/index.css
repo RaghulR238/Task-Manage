@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0px;
+}
+
+.task {
+    color: white;
+    display: flex;
+}
+
+.table {
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.add {
+    flex: 1;
+}
+
+.table2 {
+    width: 80%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.drop {
+    margin: 20px;
+    margin-left: 120px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.search {
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#id {
+    /* display: none; */
+}
